@@ -7979,8 +7979,9 @@
   }
   .\32 xl\:text-6xl {
     @media (width >= 1400px) {
-      font-size: var(--text-6xl);
+      font-size: 30px;
       line-height: var(--tw-leading, var(--text-6xl--line-height));
+      text-wrap: nowrap;
     }
   }
   .\32 xl\:text-7xl {
